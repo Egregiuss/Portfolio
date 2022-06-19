@@ -1,0 +1,86 @@
+@import "global" ;
+
+// GENERAL STYLE
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: white  !important;
+
+}
+
+.backgroundBody {
+	background-color: $pryColor ;
+}
+
+.about {
+    background-image: url("/myproject/images/Rectangle\ 7.png");
+}
+
+.hero {
+    background: url("/myproject/images/hero-bg.jpg");
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+h4 {
+	@include H4Fonts;
+}
+
+h3 {
+	@include H3Fonts;
+}
+
+p {
+	@include PFonts;
+}
+
+// NAVBAR
+
+.navigation {
+	background: none;
+}
+.nav-link {
+	color: white ;
+}
+// logo
+.navbar-brand {
+	color: white;
+	letter-spacing: -0.14em;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 2.81em;
+}
+
+.btnContact {
+	background-color: $secColor !important;
+	border: none !important;
+}
+
+// HERO
+.heroIntro {
+	color: $secColor;
+}
+
+.heroTextIntro {
+	line-height: 1.5em;
+}
+
+// About-me
+.name {
+	color: green !important
+}
+
+// SERVICES
+.hrLine {
+	@include headerDivider;
+}
+
+.icon {
+	width: 54.98px;
+	height: 68.29px;
+	
+}

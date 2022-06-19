@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: white  !important;
+}
+
+.backgroundBody {
+  background-color: black;
+}
+
+.about {
+  background-image: url("/myproject/images/Rectangle 7.png");
+}
+
+.hero {
+  background: url("/myproject/images/hero-bg.jpg");
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+h4 {
+  font-family: "Lucida Sans", "Lucida Grande", sans-serif;
+  font-size: 1.56em;
+}
+
+h3 {
+  font-family: "Lucida Sans", "Lucida Grande", sans-serif;
+  font-size: 2.25em;
+}
+
+p {
+  font-family: "Lucinda Sans", sans-serif;
+  font-size: 1em;
+  font-weight: lighter;
+}
+
+.navigation {
+  background: none;
+}
+
+.nav-link {
+  color: white;
+}
+
+.navbar-brand {
+  color: white;
+  letter-spacing: -0.14em;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.81em;
+}
+
+.btnContact {
+  background-color: #0C8D30 !important;
+  border: none !important;
+}
+
+.heroIntro {
+  color: #0C8D30;
+}
+
+.heroTextIntro {
+  line-height: 1.5em;
+}
+
+.name {
+  color: green !important;
+}
+
+.hrLine {
+  border: 3px solid #0C8D30;
+  width: 54px;
+}
+
+.icon {
+  width: 54.98px;
+  height: 68.29px;
+}
+/*# sourceMappingURL=index.css.map */
